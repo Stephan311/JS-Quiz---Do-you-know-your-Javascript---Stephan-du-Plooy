@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Do YOU Know What You Are Talking About?</title>
+</head>
+
+<body>
+
+
+    <!--Page header-->
+    <div id="header">
+        <!--Scores Link-->
+        <div class="scoress">
+            <a onclick="getScore()" href="#"><h4>High Scores</h4></a>
+        </div>
+          <!--Timer-->
+          <div class="timer">
+              <h4>Time Left: <span id="timeLeft">0</span></h4>
+          </div>
+    </div>
+
+
+    <!--Quiz Content and Body-->
+    <div id="quiz">
+        <div id="quizBody">
+            <h1>Do YOU know your Javascipt?</h1>
+            <h3>Take this quiz to find out!</h3>
+            <button onclick="start()">Start Quiz</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

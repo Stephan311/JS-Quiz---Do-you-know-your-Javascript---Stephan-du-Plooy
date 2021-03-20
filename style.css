@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(red, yellow);
+    align-items: center;
+  }
+
+  .timer {
+      margin-left: 1400px;
+      color: white;
+  }
+
+  #quiz {
+      text-align: center;
+      margin-top: 200px;
+  }
+
+  h3 {
+      margin-top: 20px;
+  }
+
+  button {
+      margin-top: 80px;
+      padding: 20px 10px 20px 10px;
+      margin: 20px;
+      font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  #quizbody {
+      color: white;
+      font-size: 30px;
+  }
+
+  .scoress {
+      margin-left: 20px;
+      margin-top: 30px;
+      color: white;
+  }
